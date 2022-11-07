@@ -1,0 +1,67 @@
+
+.navbar{
+    background: black;
+}
+.navbar .navs{
+    color: white;
+    transition: 0.5s;
+    border-radius: 15px;
+   
+
+}
+.navbar .active {
+   background-color: white;
+ 
+  
+}
+.btnadd{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+.btnadd:hover{
+    background: black;
+    color: white;
+}
+
+.table{
+    border: 1px solid grey;
+    
+}
+
+.form{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.btnsubmit{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.btnsubmit:hover{
+    background: black;
+    color: white;
+    border: 1px solid black;
+    transform: translateY(-4px);
+}
+.btncancel:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    transform: translateY(-4px);
+}
+
+.btncancel{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.3s;
+}
